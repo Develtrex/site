@@ -18,7 +18,26 @@ header{
   background-color: var(--primary);
   flex-wrap: wrap;
 }
-
+.botonmenu{
+	display:block;
+	width:55px;
+	font-weight:700;
+	border-radius:10px;
+	background-color:#3bbcd9;
+	padding: 8px 8px;
+	margin:0.15em;
+	justify-content:center;
+	align-items:center;
+	/*padding: 8px 11px;*/
+}
+.Vlog{
+	color:#fff;
+	justify-content:center;
+	align-items:center;
+	text-decoration:none;
+	flex-direction:column;
+}
+	
 .hand{
 	cursor: pointer;
 }
