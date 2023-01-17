@@ -23,7 +23,7 @@ header{
 	width:55px;
 	font-weight:700;
 	border-radius:10px;
-	background-color:var(--secondary);
+	background-color: #BF46C1;
 	padding: 8px 8px;
 	margin:0.15em;
 	justify-content: right;
