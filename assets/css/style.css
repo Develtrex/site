@@ -22,7 +22,7 @@ header{
 	display:block;
 	width:55px;
 	font-weight:700;
-	border-radius:10px;
+	border-radius:0.3em;
 	background-color: #BF46C1;
 	padding: 8px 8px;
 	margin:0.15em;
@@ -36,7 +36,11 @@ header{
 	align-items:center;
 	text-decoration:none;
 	flex-direction:column;
+	text-transform: uppercase;
 
+}
+.Vlog:hover{
+	color: #fff;
 }
 	
 .hand{
