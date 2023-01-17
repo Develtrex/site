@@ -23,10 +23,10 @@ header{
 	width:55px;
 	font-weight:700;
 	border-radius:10px;
-	background-color:#3bbcd9;
+	background-color:var(--secondary);
 	padding: 8px 8px;
 	margin:0.15em;
-	justify-content:center;
+	justify-content: right;
 	align-items:center;
 	/*padding: 8px 11px;*/
 }
@@ -36,6 +36,7 @@ header{
 	align-items:center;
 	text-decoration:none;
 	flex-direction:column;
+
 }
 	
 .hand{
