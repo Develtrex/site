@@ -47,9 +47,7 @@ header{
 	cursor: pointer;
 }
 /*parte1*/
-
 .text-primario{
-	
 	color:var(--secondary);
 	font-size:2em;
 	font-family: roboto;
@@ -57,7 +55,6 @@ header{
 	letter-spacing: 0.3em;
 	text-align:center;
 }
-
 .text-accent{
 	color:var(--accent);
 	font-size:1.5em;
@@ -66,7 +63,6 @@ header{
 	text-align:center;
 	padding-top:-2em;
 }
-
 .text-normal{
 	color:var(--dark);
 	font-size:1.5em;
@@ -74,11 +70,9 @@ header{
 	font-weight: bold;
     text-align:center;
 }
-
 .vert-center-column{
 	width: 100%;
-max-width: 600px;
-tex	
+max-width: 600px;	
 
 }
 
