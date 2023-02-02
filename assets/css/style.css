@@ -225,6 +225,11 @@ max-width: 600px;
 	 opacity:0; 
  }
 
+ .splash{
+	width: 100%;
+ }
+ ]
+
  
  @keyframes entradaTop{
 	 from{
