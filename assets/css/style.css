@@ -271,3 +271,47 @@ max-width: 600px;
 		 opacity:1; 
 	 }
  }
+ @media (min-width:768px)and (max-width:1024px){
+	.card{
+		margin-top:2.7em;
+	}
+	.card1{
+		margin-top:1.8em;
+	}
+	.card2{
+		margin-top:3em;
+	}
+	.card3{
+		margin-top:1.3em;
+	}
+}
+@media (min-width:820px)and (max-width:1180px){
+.card{
+		margin-top:2.5em;
+	}
+	.card1{
+		margin-top:1.4em;
+	}
+	.card2{
+		margin-top:1em;
+	}
+	.card3{
+		margin-top:0.7em;
+	}
+	
+}
+@media (min-width:375px)and (max-width:667px){
+.card{
+		margin:2em;
+	}
+	.card1{
+		margin:2em;
+	}
+	.card2{
+		margin:2em;
+	}
+	.card3{
+		margin:0.7em;
+	}
+	
+}
