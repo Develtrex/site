@@ -320,6 +320,22 @@ max-width: 600px;
 	
 }
 
+@media (min-width:360px)and (max-width:740px){
+.card{
+		margin:2em;
+	}
+	.card1{
+		margin:2em;
+	}
+	.card2{
+		margin:2em;
+	}
+	.card3{
+		margin:2em;
+	}
+	
+}
+
 .color3{
 	background-color: #E6E6E6;
 }
@@ -349,6 +365,21 @@ max-width: 600px;
 }
 
 @media (min-width:375px)and (max-width:667px){
+	.logo1{
+		margin-left:6em;
+	}
+	.logo2{
+		margin-left:5em;
+		margin-top:-2.5em;
+		width:250px;
+	    height:100px
+	}
+	.logo3{
+		margin-left:6.5em;
+	}
+}
+
+@media (min-width:360px)and (max-width:740px){
 	.logo1{
 		margin-left:6em;
 	}
