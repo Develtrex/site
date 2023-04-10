@@ -117,7 +117,30 @@ max-width: 600px;
 	padding: 0.2em 0.3em 0.2em 0.3em;
 	margin:0.1em;
 }
+@media (min-width:375px)and (max-width:667px){
+	.text-primario0{
+	margin-top:-7em;
+   }
+   .text-normal0{
+	   margin-top:-0.7em;
+   }
+   .text-accent0{
+	   margin-top:-0.5em;
+   }
 
+}
+@media (min-width:360px)and (max-width:740px){
+	.text-primario0{
+	margin-top:-7em;
+   }
+   .text-normal0{
+	   margin-top:-0.7em;
+   }
+   .text-accent0{
+	   margin-top:-0.5em;
+   }
+
+}
 @media (min-width:820px)and (max-width:1180px){
 	.text-primario0{
 	margin-top:-9em;
