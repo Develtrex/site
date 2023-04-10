@@ -335,27 +335,10 @@ max-width: 600px;
 }
  /*Animación*/
  
- .icon-social.vert-center{
+ /*.icon-social.vert-center{
 	 animation:entradaTop 0.5s ease 0.4s forwards;
 	 opacity:0;
- }
- .text-primario0.1{
-	  animation:entradaRight 0.5s ease 0.5s forwards ;
-	  opacity:0;
- }
- .text-normal0.1{
-	animation:entradaRight 0.9s ease 0.9s forwards ;
-	  opacity:0; 
- }
- .text-accent0.1{
-	animation:entradaRight 1.3s ease 1.3s forwards ;
-	  opacity:0;  
- }
-
- .splash{
-	width: 100%;
- }
-
+ }*/
 /*parte2*/
 
 .vert-center-column1{
