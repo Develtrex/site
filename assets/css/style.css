@@ -1018,4 +1018,141 @@ margin-top:-0.5em;
 .contenido1 a{
 	font-size:15px;
 }
+}
+
+
+.section1{
+	width:100%;
+	max-width:1200%;
+	margin:auto;
+	display:grid;
+	grid-template-columns:repeat(3, 1fr);
+	grid-gap:50px;
+	padding:45px 0px;
+	flex-wrap:wrap;
+}
+
+
+.section1 .box h2{
+	color:#fff;
+	margin-left:1.5em;
+	margin-top:3em;
+}
+
+.section1 .box p {
+	color:#3BBCD9;
+	font-size:20px;
+	margin-top:0.4em;
+	margin-left:-3em;
+}
+
+.section1 a {
+	display:flex;
+	text-decoration:none;
+	color:#fff;
+	margin-left:-3em;
+}
+.box a i{
+	color:black;
+	margin-bottom:1em;
+	margin:7px;
+	margin-left:-1em;
+}
+ @media (min-width:375px)and (max-width:667px){
+	.section1 .box h2{
+	color:#fff;
+	margin-top:-2em;
+	margin-left:5em;
+}
+.section1 .box p {
+	color:#3BBCD9;
+	font-size:20px;
+	margin-top:0.4em;
+	margin-left:-4em;
+}
+
+.section1 a {
+	display:flex;
+	text-decoration:none;
+	color:#fff;
+	margin-left:-4em;
+}
+.box a i{
+	color:black;
+	margin-bottom:1em;
+	margin:7px;
+	margin-left:-4em;
+}
+} 
+ 
+ @media (min-width:360px)and (max-width:740px){
+	.section1 .box h2{
+	color:#fff;
+	margin-top:-2em;
+	margin-left:5em;
+}
+.section1 .box p {
+	color:#3BBCD9;
+	font-size:20px;
+	margin-top:0.4em;
+	margin-left:-4em;
+}
+
+.section1 a {
+	display:flex;
+	text-decoration:none;
+	color:#fff;
+	margin-left:-4em;
+}
+.box a i{
+	color:black;
+	margin-bottom:1em;
+	margin:7px;
+	margin-left:-4em;
+}
+} 
+
+@media (min-width:820px)and (max-width:1180px){
+
+.section1 .box p {
+	color:#3BBCD9;
+	font-size:20px;
+	margin-top:0.4em;
+	margin-left:-2em;
+}
+
+.section1 a {
+	display:flex;
+	text-decoration:none;
+	color:#fff;
+	margin-left:-1em;
+}
+.box a i{
+	color:black;
+	margin-bottom:1em;
+	margin:7px;
+	margin-left:-1em;
+}
+} 
+@media (min-width:768px)and (max-width:1024px){
+
+.section1 .box p {
+	color:#3BBCD9;
+	font-size:20px;
+	margin-top:0.4em;
+	margin-left:-1em;
+}
+
+.section1 a {
+	display:flex;
+	text-decoration:none;
+	color:#fff;
+	margin-left:-1em;
+}
+.box a i{
+	color:black;
+	margin-bottom:1em;
+	margin:7px;
+	margin-left:-1em;
+}
 } 
