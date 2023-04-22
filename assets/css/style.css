@@ -634,6 +634,8 @@ img{
 	max-width:1100px;
 	margin:20px auto;
 	flex-wrap:wrap;
+	text-decoration:none;
+	
 }
 .contenedor .card{
 	background:#fff;
@@ -644,30 +646,38 @@ img{
 	cursor: default;
 	overflow:hidden;
     margin:20px;
+	text-decoration:none;
+	cursor:pointer;
+	
 }
 .contenedor .card:hover{
     background:#ffff;
 	box-shadow:5px 5px 20px rgba(0,0,0,0.5);
 	transform: translateY(-3%);
-	
+	text-decoration:none;
 }
 .card img{
 	width:100%;
 	height:auto;
 	border-radius:6px;
+	text-decoration:none;
 }
 
 .card-body{
 	text-align:left;
 	margin-bottom:1.5em;
+	text-decoration:none;
 	
 }
 .card-body h3{
 	font-weight:400;
 	color:#BF46C1;
-margin-top:-0.5em;	
+margin-top:-0.5em;
+text-decoration:none;	
 }
-
+.card a{
+	text-decoration:none;
+}
 @media(min-width:480px){
 	.contenedor{
 		display:grid;
@@ -766,6 +776,7 @@ margin-top:-0.5em;
 	}
 	.card-body h3{
 		flex-grow:1;
+	
 	}
 }
  
@@ -1145,19 +1156,21 @@ margin-top:-0.5em;
 }
 }
 
-/* SERVICIOS DE CARDS */
+/* ANALISIS DE DATOS */
 
 
 .container{
 	width:100%;
 	height:auto;
 	padding-top:2em;
+	cursor:pointer;
+	
 }
 .contenedor1{
 	width:100%;
 	color:#BF46C1;
 	box-shadow: 1px 1px 5px 1px #3BBCD9;
-	cursor:pointer;
+	
 }
 .containerx{
 	width:100%;
@@ -1173,7 +1186,7 @@ margin-top:-0.5em;
 .contenedor2{
 	width:100%;
 	color:#BF46C1;
-	box-shadow: 1px 5px 15px 1px #BF46C1;
+	box-shadow: 1px 1px 5px 1px #3BBCD9;
 }
 
 .btn-container{
@@ -1181,14 +1194,17 @@ margin-top:-0.5em;
 	margin-left:32em;	
 }
 .btn1{
-	background-color:#3BBCD9;
+	background-color:#BF46C1;
 	border-radius:0.5em;
 	padding:6px;
 	margin-right:1em;
-	
+}
+.btn1 a{
+	text-decoration:none;
+	color:#000;
 }
 .btn2{
-	background-color:#3BBCD9;
+	background-color:#BF46C1;
 	border-radius:0.5em;
 	padding:10px;
 	
@@ -1214,7 +1230,7 @@ margin-top:-0.5em;
 }
 .btn1{
 	margin-left:1em;
-	background-color:#3BBCD9;
+	background-color:#BF46C1;
 	border-radius:0.5em;
 	padding:10px;
 	margin-right:1em;
@@ -1284,4 +1300,149 @@ margin-top:-0.5em;
 .color4{
 	width:50%;
 	padding:2em;
+}
+/*------- Google analytics --------------------*/
+
+
+
+.cajax{
+	padding:2em;
+}
+.cajas {
+	display:flex;
+    justify-content:space-evenly;
+	gap:30px;
+} 
+
+
+.caja1 {
+	 display:flex;
+	 flex-direction:column;
+	 font-size:18px;
+	 gap:30px;
+	 padding:45px 55px;
+	 margin-left:8em;
+	 margin-top:-1em;
+}
+.caja1 p{
+	text-decoration:none;
+	color:#000;
+	display:inline-block;
+	position:relative;
+	position:relative;
+	padding:-3em;
+}
+.caja2 {
+	 display:flex;
+	 flex-direction:column;
+	 font-size:18px;
+	 gap:30px;
+	 padding:45px 55px;
+	  margin-left:1em;
+	  margin-top:-1em;
+	 
+}
+.caja2 p{
+	color:#000;
+	display:inline-block;
+	position:relative;
+}
+.btn-container1{
+    flex-wrap:wrap;
+	margin-left:35em;	
+margin-bottom:2em;	
+}
+.btnx{
+	background-color:#BF46C1;
+	border-radius:0.5em;
+	padding:10px;
+	
+	
+}
+.btnx a{
+	text-decoration:none;
+	color:#000;
+}
+
+@media (min-width:375px)and (max-width:667px){
+	.cajas{
+		display:block;
+	}
+	.caja1{
+		margin-top:3em;
+		margin-left:4em;
+		
+	}
+	.caja1 p{
+		margin-top:-2em;
+		margin-left:-3.5em;
+	}
+	.caja2{
+		margin-left:-1em;
+		margin-top:2em;
+	}
+	.caja2 p{
+		margin-top:-2em;
+		margin-left:5.5em;
+	}
+	.btn-container1{
+    flex-wrap:wrap;
+	margin-left:15em;	
+    margin-bottom:6em;	
+}
+}
+
+@media (min-width:360px)and (max-width:740px){
+	.cajas{
+		display:block;
+	}
+	.caja1{
+		margin-top:-2em;
+		margin-left:2em;
+	}
+	.caja1 p{
+		margin-top:-2em;
+		margin-left:-3.5em;
+	}
+	.caja2{
+		margin-top:-4em;
+		margin-left:-2.9em;
+	}
+	.caja2 p{
+		margin-top:-2em;
+		margin-left:5.5em;
+	}
+		.btn-container1{
+    flex-wrap:wrap;
+	margin-left:14.5em;	
+    margin-bottom:5em;	
+}
+}
+
+@media (min-width:768px)and (max-width:1024px){
+	
+	.cajas{
+		display:flex;
+	}
+	.caja1{
+		margin-top:-2em;
+		margin-left:2em;
+	}
+	.caja2{
+		margin-top:-2em;
+		margin-left:-3em;
+	}
+		.btn-container1{
+    flex-wrap:wrap;
+	margin-left:19em;	
+    margin-bottom:5em;	
+}
+}
+
+@media (min-width:768px)and (max-width:1180px){
+		.btn-container1{
+    flex-wrap:wrap;
+	margin-left:19.5em;	
+    margin-bottom:5em;	
+}
 }
