@@ -818,6 +818,9 @@ text-decoration:none;
 	gap:30px;
 	
 } 
+.section1 .box a{
+	color:#000;
+}
 .section h2{
 	color:#ffff;
 	margin-left:0.5em;
@@ -893,6 +896,7 @@ text-decoration:none;
 	transform:scaleX(1);
 	transform-origin:bottom left;
 }
+
 /*----------------------------------------------------------*/
 @media (min-width:360px)and (max-width:740px){
 	  .logo0 {
