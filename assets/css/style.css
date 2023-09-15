@@ -324,7 +324,7 @@ max-width: 600px;
 	width:100%;
 	height:55vh;
 	background:#7170ac; 
-	top:55px;
+	top:54px;
 	left:-100%;
 	text-align:center;
 	transition:all .5s;
@@ -334,8 +334,8 @@ max-width: 600px;
 }
 .menu ul li{
 	display:block;
-	margin:10px 0;
-	line-height:30px;
+	margin:1px 0;
+	line-height:16px;
 }
 
 .menu ul li a{
@@ -379,7 +379,7 @@ max-width: 600px;
 .menu ul li{
 	display:block;
 	margin:10px 0;
-	line-height:30px;
+	line-height:26px;
 }
 
 .menu ul li a{
@@ -409,6 +409,11 @@ max-width: 600px;
 	width:100%;
 	height:50vh;
 }
+.menu ul li{
+	display:block;
+	margin:5px 0;
+	line-height:4px;
+}
 }
 
 @media (min-width:375px)and (max-width:667px){
@@ -416,6 +421,11 @@ max-width: 600px;
  .menu{
 	width:100%;
 	height:60vh;
+}
+.menu ul li{
+	display:block;
+	margin:5px 0;
+	line-height:9px;
 }
 .icon-social i{	
 	border-radius:0.3em;
