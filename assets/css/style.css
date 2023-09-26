@@ -1946,6 +1946,22 @@ text-decoration:none;
 	font-size:30px;
 	color:#3BBCD9;
 }
+.btn-precio{
+	background:#BF46C1;
+	display:block;
+	padding:8px;
+	color:#ffff;
+	text-decoration:none;
+	border-radius:3px;
+	margin-bottom:10px;
+	font-size:19px;
+}
+
+.btn-precio:hover{
+	background:#3BBCD9;
+	color:#ffff;
+}
+
 .columna h2{
 	color:#BF46C1;
 }
@@ -1960,7 +1976,7 @@ text-decoration:none;
 }
 
 .container .columna:hover{
-    background:#ffff;
+    background:#C5E7F0;
 	box-shadow:5px 5px 20px rgba(0,0,0,0.5);
 	transform: translateY(-3%);
 	text-decoration:none;
