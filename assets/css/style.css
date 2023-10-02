@@ -132,7 +132,7 @@ max-width: 600px;
 	font-weight: bold;
 	letter-spacing: 0.3em;
 	text-align:center;
-	padding-top:3em;
+	padding-top:5em;
 
 }
 .text-accent0{
@@ -141,7 +141,7 @@ max-width: 600px;
 	font-family: roboto;
 	font-weight: bold;
 	text-align:center;
-	padding-top:-2em;
+	padding-top:-15em;
 
 }
 .text-normal0{
@@ -151,7 +151,7 @@ max-width: 600px;
 	font-weight: bold;
     text-align:center;
 	color:#fff;
-	padding-top:-4em;
+	padding-top:-5em;
 }
 }
 @media (min-width:360px)and (max-width:740px){
@@ -162,7 +162,7 @@ max-width: 600px;
 	font-weight: bold;
 	letter-spacing: 0.3em;
 	text-align:center;
-	padding-top:3em;
+	padding-top:2.4em;
 
 }
 .text-accent0{
@@ -184,6 +184,36 @@ max-width: 600px;
 	padding-top:-4em;
 }
 
+}
+@media (min-width:412px)and (max-width:915px){
+	.text-primario0{
+	color:var(--secondary);
+	font-size:2em;
+	font-family: roboto;
+	font-weight: bold;
+	letter-spacing: 0.3em;
+	text-align:center;
+	padding-top:1.5em;
+
+}
+.text-accent0{
+	color:var(--accent);
+	font-size:1.5em;
+	font-family: roboto;
+	font-weight: bold;
+	text-align:center;
+	padding-top:-15em;
+
+}
+.text-normal0{
+	color:var(--dark);
+	font-size:1.2em;
+	font-family: roboto;
+	font-weight: bold;
+    text-align:center;
+	color:#fff;
+	padding-top:-5em;
+}
 }
 
 @media (min-width:820px)and (max-width:1180px){
@@ -224,7 +254,7 @@ max-width: 600px;
 	font-weight: bold;
 	letter-spacing: 0.3em;
 	text-align:center;
-	padding-top:3em;
+	padding-top:1em;
 
 }
 .text-accent0{
