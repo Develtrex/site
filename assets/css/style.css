@@ -1878,8 +1878,6 @@ text-decoration:none;
 }	
 }
 
-
-
 @media (min-width:390px)and (max-width:844px){
 .text-inicio{
 	color:var(--dark);
@@ -1984,4 +1982,33 @@ text-decoration:none;
 	box-shadow:5px 5px 20px rgba(0,0,0,0.5);
 	transform: translateY(-3%);
 	text-decoration:none;
+}
+
+/*---------------- ACERCA DE NOSOTROS-------------*/
+
+.vert-center-column_acerca p{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	color:#3BBCD9;
+    font-size: 7em;	
+	font-family:roboto;
+}
+.vert-center-column_acerca1 p{
+	position: absolute;
+	top:80em;
+	font-size:1.1em;
+	color:#fff;
+	font-family:roboto;
+	top:290%;
+	
+}
+@media (min-width:375px)and (max-width:667px){
+	.vert-center-column_acerca p{
+		top:20%;
+	}
+    .vert-center-column_acerca1 p{
+		top:80%;
+	}
 }
