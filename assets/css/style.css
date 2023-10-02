@@ -1874,7 +1874,7 @@ text-decoration:none;
 	font-weight: bold;
     text-align:center;
 	color:#fff;
-	margin-top:-9em;
+	top:1em;
 }	
 }
 
@@ -1898,7 +1898,7 @@ text-decoration:none;
 	font-weight: bold;
     text-align:center;
 	color:#fff;
-	margin-top:-8em;
+	margin-top:-10em;
 }	
 	
 }
@@ -2010,5 +2010,29 @@ text-decoration:none;
 	}
     .vert-center-column_acerca1 p{
 		top:80%;
+	}
+}
+@media (min-width:360px)and (max-width:740px){
+	.vert-center-column_acerca p{
+		top:20%;
+	}
+    .vert-center-column_acerca1 p{
+		top:60%;
+	}
+}
+@media (min-width:820px)and (max-width:1180px){
+	.vert-center-column_acerca p{
+		top:20%;
+	}
+    .vert-center-column_acerca1 p{
+		top:40%;
+	}
+}
+@media (min-width:768px)and (max-width:1024px){
+	.vert-center-column_acerca p{
+		top:20%;
+	}
+    .vert-center-column_acerca1 p{
+		top:20%;
 	}
 }
