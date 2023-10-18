@@ -2202,3 +2202,92 @@ margin-bottom:2em;
 	transform: translateY(-3%);
 	text-decoration:none;
 }
+/* ----- Formulario ---- */
+
+.form-register{
+	background:linear-gradient(#7170ac,#BF46C1);
+	margin:auto;
+	width:90%;
+	max-width:400px;
+	padding:4.5em 3em;
+	border-radius:10px;
+	box-shadow:0 5px 10px -5px rgb(0 0 0 / 30%);
+	text-align:center;
+	margin-top:2.5em;
+	margin-bottom:3em;
+
+}
+
+.form_title{
+	font-size: 2rem;
+	margin-bottom:1em;
+	color:#3BBCD9;
+}
+.form_container{
+	margin-top: 3em;
+	display:grid;
+	gap:2em;
+}
+.form_group{
+	position: relative;
+	color: #7170ac;	
+}
+.form_input{
+	width:100%;
+	background:none;
+	color:#3BBCD9;
+	font-size:1rem;
+	padding: .6em .3em;
+	border:none;
+	outline:none;
+	border-bottom:1px solid #3BBCD9;
+	font-family:'Roboto', sans-serif;
+}
+
+.form_label{
+	color:#fff;
+	cursor:pointer;
+	position:absolute;
+	top:0;
+	left:5px;
+	transform:translateY(10px);
+	transition:transform .5s,color .3s;
+}
+
+.form_input:focus + .form_label,
+.form_input:not(:placeholder-shown) + .form_label{
+	transform:translateY(-12px)scale(.7);
+	transform-origin:left top;
+	color:#fff;
+}
+.btn_formulario{
+	background:#3BBCD9;
+    color:#fff;	
+	font-family:'Roboto', sans-serif;
+	font-size:1rem;
+	font-weight:300;
+	padding: .8em 0;
+	border:none;
+	border-radius:.5em;
+}
+.btn_formulario:hover{
+	background:#4D5051;
+}
+.form_line{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:1px;
+	background-color:#7170ac;
+	transform:scale(0);
+	transform:left bottom;
+	transition:transform .4s;
+}
+
+@media (max-width:425px){
+	.form_title{
+		font-size:1.8rem;
+	}
+	
+}
