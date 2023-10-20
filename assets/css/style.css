@@ -2017,18 +2017,11 @@ text-decoration:none;
 
 /*---------------- ACERCA DE NOSOTROS-------------*/
 
-.vert-center-column_acerca p{
-	position: absolute;
-	top:50%;
-	left:50%;
-	transform: translate(-50%,-50%);
-	color:#3BBCD9;
-    font-size: 7em;	
-	font-family:roboto;
-}
 .text_acerca{
 	width:100%;
 	height:500px;
+	background:#fff;
+	background:red;
     background-image:linear-gradient(#7170ac,#BF46C1);
 }
 .text_acerca p{
@@ -2037,86 +2030,152 @@ text-decoration:none;
     text-align:center;
 	font-family:arial;
 	font-size:1.1em;
+	color:#000;
 }
 .text_acerca1{
 	width:100%;
 	height:100px;
-    background-image:linear-gradient(#7170ac,#BF46C1);
-	color:#fff;
+	color:#3BBCD9;
+	background:;
 	font-family:roboto black;
 	font-size:3.5em;
 	text-align:center;
 }
-.color_acerca{
-	 background-image:linear-gradient(#7170ac,#BF46C1);
+.acerca{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	min-height:100hv;
+	background:#fff;
+	flex-wrap:wrap;
+	
+}
+.card-acerca{
+  position:relative;
+  width:400px;
+  height:700px;
+  background-image:linear-gradient(#7170ac,#BF46C1);
+  border-radius:5px;
+  overflow:hidden;
+  transition:.5s;
+  margin-top:3em;
+  margin:30px 30px;
+}
+.card-acerca:hover{
+	box-shadow: 0 5px 15px rgba(3,89,92, .5);
+	transform:translateY(-15px);
+}
+.card-acerca .head{
+	height:125px;
+	width:100%;
+	position:relative;
 }
 
+.card-acerca .head .img-acerca{
+	width:150px;
+	height:150px;
+	position:absolute;
+	background:#fff;
+	padding:5px;
+	border-radius:50%;
+	bottom:-30%;
+	left:50%;
+	transform:translate(-50%);
+}
+.card-acerca .head .img-acerca img {
+	width:100%;
+	height:100%;
+	border-radius:50%;
+	object-fit: cover;
+	background:#fff;
+}
+
+.card-acerca .descrption{
+   height:125px;
+   padding: 80px 20px 20px 20px;
+   border-bottom:2px solid #3BBCD9 ;  
+   text-align:center;   
+}
+.card-acerca .descrption h3{
+	color:#3BBCD9;
+	margin-top:-1em;
+	font-family:roboto black;
+}
+.card-acerca .descrption h4{
+	color:#43445B;
+	
+}
+.card-acerca .descrption p{
+	color:#fff;
+	font-size:15px;
+}
+.acerca-texto{
+	color:#fff;
+	padding-top:0.5em;
+}
 
 @media (min-width:375px)and (max-width:667px){
-	.vert-center-column_acerca p{
-		top:20%;
-	}
-    .vert-center-column_acerca1 p{
-		top:80%;
-	}
-	.text_acerca p{
-	padding:10em;	
-	}
-	.text_acerca1{
-		padding:2em;
-	}
+.text_acerca {
+	height:300px;
 }
-@media (min-width:393px)and (max-width:851px){
-	.vert-center-column_acerca p{
-		top:2em;	
-	}
+.text_acerca p{
+padding:2em;
+font-size:1.2em;
 }
+.text_acerca1{
+	padding:0.5em;
+}
+
+.card-acerca{
+  height:550px;
+}
+.acerca-texto{
+	color:#fff;
+	padding-top:2em;
+	font-size:1.1em;
+}
+}
+
 @media (min-width:360px)and (max-width:740px){
-	.vert-center-column_acerca p{
-		top:15%;
-	}
-    .vert-center-column_acerca1 p{
-		top:60%;
-	}
-	.text_acerca p{
-	padding:5em;	
-	}
-	.text_acerca1{
-		padding:2em;
-	}
+.text_acerca {
+	height:300px;
+}
+.text_acerca p{
+padding:1em;
+font-size:1.2em;
+}
+.text_acerca1{
+	padding:0.7em;
+}
+.card-acerca .descrption{
+   height:137px;    
+}
+.card-acerca{
+  height:600px;
+}
+.acerca-texto{
+	color:#fff;
+	padding-top:2.5em;
+	font-size:1.1em;
+}
 }
 @media (min-width:414px)and (max-width:915px){
-	.vert-center-column_acerca p{
-		top:15%;
-	}
-    .vert-center-column_acerca1 p{
-		top:60%;
-	}
-	.text_acerca p{
-	padding:6em;	
-	}
+.text_acerca p{
+padding:2em;
+font-size:1.2em;
+}
 }
 @media (min-width:820px)and (max-width:1180px){
-	.vert-center-column_acerca p{
-		top:20%;
-	}
-    .vert-center-column_acerca1 p{
-		top:40%;
-	}
-	.text_acerca p{
-	padding:2em;	
-	}
+.text_acerca p{
+padding:2.6em;
+font-size:1.3em;
+}
 }
 @media (min-width:768px)and (max-width:1024px){
-	.vert-center-column_acerca p{
-		top:20%;
-	}
-    .vert-center-column_acerca1 p{
-		top:20%;
-	}
-	.text_acerca p{
-	padding:3em;	
-	}
+.text_acerca p{
+padding:2.8em;
+font-size:1.3em;
+}
 }
 
 /*---- BROCHURE------*/
@@ -2256,7 +2315,7 @@ margin-bottom:2em;
 
 .form_input:focus + .form_label,
 .form_input:not(:placeholder-shown) + .form_label{
-	transform:translateY(-10px)scale(.3);
+	transform:translateY(-12px)scale(.7);
 	transform-origin:left top;
 	color:#fff;
 }
