@@ -2016,31 +2016,69 @@ text-decoration:none;
 }
 
 /*---------------- ACERCA DE NOSOTROS-------------*/
+.container-slider ul{
+ margin:0px;
+ padding:0px;
+ 
+}
+.slider-box{
+  width:100%;
+  height:auto;
+  overflow:hidden;
 
-.text_acerca{
-	width:100%;
-	height:500px;
-	background:#fff;
-	background:red;
-    background-image:linear-gradient(#7170ac,#BF46C1);
 }
-.text_acerca p{
-	padding:7em;
-	color:#fff;
-    text-align:center;
-	font-family:arial;
-	font-size:1.1em;
-	color:#000;
+.slider-box ul{
+  display:flex;
+  padding:0;
+  width:400%;
+  animation:slide 30s infinite alternate ease-in-out;
+  
 }
-.text_acerca1{
+.slider-box li{
 	width:100%;
-	height:100px;
-	color:#3BBCD9;
-	background:;
-	font-family:roboto black;
-	font-size:3.5em;
+	list-style:none;
+	position:relative;
+}
+.texto-slider{
+	position:absolute;
 	text-align:center;
+	padding:0 250px;
+	top:250px;
+	color:#fff;
+	font-size:1.4em;
+	font-family:'roboto'
 }
+.slider-box img{
+	width:100%;
+}
+@keyframes slide{
+ 0% {margin-left:0;}
+ 20%{margin-left:0;} 
+ 
+ 25%{margin-left:-100%;}
+ 45%{margin-left:-100%;}
+ 
+ 50%{margin-left:-200%;}
+ 70%{margin-left:-200%;}
+ 
+ 75%{margin-left:-300%;}
+ 100%{margin-left:-300%;}
+ 
+}
+@media(max-width:991px){
+   .slider-box{
+	   width:100%;
+   }
+   .texto-slider{
+	   top:50px;
+	   padding:0 25px;
+   }
+   .texto-slider p{
+	   font-size:15px;
+	   
+   }
+}
+
 .acerca{
 	display:flex;
 	align-items:center;
@@ -2053,7 +2091,7 @@ text-decoration:none;
 .card-acerca{
   position:relative;
   width:400px;
-  height:700px;
+  height:650px;
   background-image:linear-gradient(#7170ac,#BF46C1);
   border-radius:5px;
   overflow:hidden;
@@ -2112,27 +2150,17 @@ text-decoration:none;
 .acerca-texto{
 	color:#fff;
 	padding-top:0.5em;
+	text-align:justify;
 }
 
 @media (min-width:375px)and (max-width:667px){
-.text_acerca {
-	height:300px;
-}
-.text_acerca p{
-padding:2em;
-font-size:1.2em;
-}
-.text_acerca1{
-	padding:0.5em;
-}
-
-.card-acerca{
-  height:550px;
-}
 .acerca-texto{
 	color:#fff;
 	padding-top:2em;
-	font-size:1.1em;
+	font-size:0.1em;
+}
+.card-acerca{
+	height:800px;
 }
 }
 
@@ -2151,7 +2179,7 @@ font-size:1.2em;
    height:137px;    
 }
 .card-acerca{
-  height:600px;
+  height:830px;
 }
 .acerca-texto{
 	color:#fff;
@@ -2162,20 +2190,43 @@ font-size:1.2em;
 @media (min-width:414px)and (max-width:915px){
 .text_acerca p{
 padding:2em;
-font-size:1.2em;
+font-size:1em;
 }
+
 }
 @media (min-width:820px)and (max-width:1180px){
 .text_acerca p{
 padding:2.6em;
-font-size:1.3em;
+font-size:2em;
 }
+   .slider-box{
+	   width:100%;
+   }
+   .texto-slider{
+	  padding-top:2.5em;
+	  
+   }
+   .texto-slider p{
+	   font-size:30px;
+	   
+   }
 }
 @media (min-width:768px)and (max-width:1024px){
 .text_acerca p{
 padding:2.8em;
-font-size:1.3em;
+font-size:1.5em;
 }
+   .slider-box{
+	   width:100%;
+   }
+   .texto-slider{
+	  padding-top:2.5em;
+	  
+   }
+   .texto-slider p{
+	   font-size:28px;
+	   
+   }
 }
 
 /*---- BROCHURE------*/
