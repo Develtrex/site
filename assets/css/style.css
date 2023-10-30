@@ -2360,8 +2360,7 @@ margin-bottom:2em;
 	position:absolute;
 	top:0;
 	left:5px;
-	transform:translateY(10px);
-	transition:transform .5s,color .3s;
+    
 }
 
 .form_input:focus + .form_label,
