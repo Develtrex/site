@@ -2016,67 +2016,19 @@ text-decoration:none;
 }
 
 /*---------------- ACERCA DE NOSOTROS-------------*/
-.container-slider ul{
- margin:0px;
- padding:0px;
- 
-}
-.slider-box{
-  width:100%;
-  height:auto;
-  overflow:hidden;
 
-}
-.slider-box ul{
-  display:flex;
-  padding:0;
-  width:400%;
-  animation:slide 30s infinite alternate ease-in-out;
-  
-}
-.slider-box li{
-	width:100%;
-	list-style:none;
-	position:relative;
-}
 .texto-slider{
 	position:absolute;
 	text-align:center;
 	padding:0 250px;
 	top:250px;
 	color:#fff;
-	font-size:1.4em;
+	font-size:1.3em;
 	font-family:'roboto'
 }
-.slider-box img{
-	width:100%;
-}
-@keyframes slide{
- 0% {margin-left:0;}
- 20%{margin-left:0;} 
- 
- 25%{margin-left:-100%;}
- 45%{margin-left:-100%;}
- 
- 50%{margin-left:-200%;}
- 70%{margin-left:-200%;}
- 
- 75%{margin-left:-300%;}
- 100%{margin-left:-300%;}
- 
-}
+
+
 @media(max-width:991px){
-   .slider-box{
-	   width:100%;
-   }
-   .texto-slider{
-	   top:50px;
-	   padding:0 25px;
-   }
-   .texto-slider p{
-	   font-size:15px;
-	   
-   }
 }
 
 .acerca{
@@ -2186,6 +2138,10 @@ font-size:1.2em;
 	padding-top:2.5em;
 	font-size:1.1em;
 }
+   .texto-slider{
+	  padding-top:0em;
+	  
+   }
 }
 @media (min-width:414px)and (max-width:915px){
 .text_acerca p{
@@ -2208,7 +2164,7 @@ font-size:2em;
    }
    .texto-slider p{
 	   font-size:30px;
-	   
+	   padding-top:2.5em;
    }
 }
 @media (min-width:768px)and (max-width:1024px){
@@ -2225,7 +2181,7 @@ font-size:1.5em;
    }
    .texto-slider p{
 	   font-size:28px;
-	   
+	   font-size:1.2em;
    }
 }
 
