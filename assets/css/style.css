@@ -15,8 +15,9 @@
 
 header {
   padding:0.5em 0em 0.5em 0em;
-  background-color: var(--primary);
-  /*flex-wrap: wrap;*/
+  background-color: #fff;
+  /*background-color: var(--primary);
+  flex-wrap: wrap;*/
 
 }
 .hand{
@@ -46,7 +47,7 @@ header {
 }
 .text-header a{
 	text-decoration:none;
-	color:#fff;
+	color:#BF46C1;
 }
 .text-header a:hover{
 	color:#3BBCD9;
@@ -98,7 +99,7 @@ max-width: 600px;
 }
 
 .text-header{
-	color:var(--light);
+	color:#6c757d;
 	font-size:1.5em;
 	font-family: roboto;
 	padding-right:2em;
@@ -119,8 +120,8 @@ max-width: 600px;
 }
 
 .icon-social i{
-	background:var(--accent);	
-	border-radius:0.3em;
+	/*background:var(--accent);	
+	border-radius:0.3em;*/
 	padding: 0.2em 0.3em 0.2em 0.3em;
 	margin:0.1em;
 }
@@ -310,7 +311,7 @@ max-width: 600px;
 .menu  li a{
 	display:block;
 	padding:1.2em 2em;
-	color:#fff;
+	color:var(--primary);
 	text-decoration:none;
 	position:relative;
 	font-weight:700;
@@ -1014,7 +1015,7 @@ text-decoration:none;
 	
 } 
 .section1 .box a{
-	color:#000;
+	color:#fff;
 }
 .section h2{
 	color:#ffff;
@@ -1031,7 +1032,7 @@ text-decoration:none;
 }
 .contenido a{
 	text-decoration:none;
-	color:#000;
+	color:#fff;
 	display:inline-block;
 	position:relative;
 	position:relative;
@@ -1046,7 +1047,7 @@ text-decoration:none;
 }
 .contenido1 a{
 	text-decoration:none;
-	color:#000;
+	color:#fff;
 	display:inline-block;
 	position:relative;
 }
@@ -1227,6 +1228,7 @@ text-decoration:none;
 	grid-gap:50px;
 	padding:45px 0px;
 	flex-wrap:wrap;
+	color:#fff;
 }
 
 
@@ -1250,7 +1252,7 @@ text-decoration:none;
 	margin-left:-3em;
 }
 .box a i{
-	color:black;
+	color:#fff;
 	margin-bottom:1em;
 	margin:7px;
 	margin-left:-1em;
